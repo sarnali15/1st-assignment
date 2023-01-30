@@ -127,13 +127,14 @@ body {
     margin-bottom: 100px;
 }
 
-#bg-4 {
+.bg-4 {
     display: flex;
     padding-left: 200px;
     padding-right: 350px;
+    margin-bottom: 100px;
 }
 
-#bg-4 img {
+.bg-4 img {
     width: 120%;
     height: 100%;
     padding-left: 100px;
@@ -141,8 +142,27 @@ body {
 
 }
 
+.bg-5 {
+    display: flex;
+    padding-left: 70px;
+    padding-right: 200px;
+    margin-bottom: 100px;
+}
+
+.bg-5 img {
+    width: 120%;
+    height: 100%;
+
+}
+
+
 .two-div {
     width: 50%;
+}
+
+.two-div2 {
+    width: 50%;
+    padding-left: 130px;
 }
 
 .h2-normal {
@@ -162,4 +182,53 @@ body {
 .p-normal {
     color: rgb(87, 85, 85);
     padding-bottom: 50px;
+}
+
+#div-out {
+    padding: 60px 30px;
+    background-color: rgb(255, 210, 195);
+    margin-left: 320px;
+    margin-right: 320px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+#div-mid {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#div-in1 {
+    width: 65%;
+    color: rgb(83, 82, 82);
+    background-color: rgb(184, 180, 180);
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#div-in2 {
+    width: 35%;
+    color: white;
+    background-color: rgb(252, 60, 50);
+    padding: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.bg-last {
+    background-color: rgb(19, 19, 31);
+    padding-top: 2%;
+    height: 120px;
+}
+
+.humble {
+    color: red;
+    text-align: center;
+}
+
+.humble-2 {
+    color: rgb(194, 190, 190);
+    text-align: center;
 }
